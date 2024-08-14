@@ -59,10 +59,13 @@ nav{
     color: white;
     font-family: 'Kanit', sans-serif;
     font-size: 18px;
+    transition: color 0.3s;
 }
-
+.nav-links li a:hover{
+    color: #de4b4b;
+}
 .reg-btn{
-    background: rgb(227, 0, 0);
+    background: white;
     color: black;
     padding: 8px 15px;
     border-radius: 20px;
