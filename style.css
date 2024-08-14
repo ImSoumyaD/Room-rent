@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Ubuntu', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.header {
+    min-height: 45vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/Banner.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 2%;
+}
+.logo{
+    width: 100px;
+    height: 80px;
+    float: left;
+    margin-top: 0;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo span{
+    color: white;
+    margin-left: 2px;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+}
+
+.reg-btn{
+    background: rgb(227, 0, 0);
+    color: black;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 17px;
+    margin-left: 10%;
+    margin-right: 20px;
+    font-family: 'Kanit', sans-serif;
+    transition: 0.3s all ease ;
+    /* margin-top: 30px; */
+}
+.reg-btn:hover{
+    background: #de4b4b;
+    color: rgb(255, 255, 255);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    font-family:'Kanit', sans-serif;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.container a{
+    width: 90px;
+    margin-right: 140px;
+    margin-top: 10px;
+}
+.list-container{
+    padding: 5px 10%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list-container h1{
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: 'Kanit', sans-serif;;
+}
+.list-container p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.room{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    border-top: 0.5px solid rgb(110, 68, 68);
+    height: 280px;
+}
+.room-img img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.room-img img:hover{
+    transform: scale(1.03);
+}
+.room-img{
+    flex-basis: 30%;
+}
+.room-info{
+    display: flex;
+    margin-top: 50px;
+    flex-basis: 65%;
+    color: #2b2b29;
+    width: 300px;
+    margin-top: 30px;
+}
+.room-info h3{
+    font-weight: 600;
+    color: #45423b;
+    margin: 10px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+.room-price{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    margin-top: 5%;
+    margin-top: 40px;
+    float: right;
+    margin-left: 15px;
+    /* margin-right: 30px; */
+    
+}
+.room-price h4{
+    /* margin-left: 40%; */
+    font-size: 18px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.room-price h4 span{
+    font-size: 15px;
+}
+.room-price h4 i{
+    font-size: 15px;
+}
+
+.book-btn{
+  background: #de4b4b;
+  color: rgb(255, 255, 255);
+  width: 120px;
+  margin-left: 29%;
+  margin-right: 0;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 8px 10px;
+  font-family: 'Kanit', sans-serif;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+.book-btn:hover{
+    background: #b31f1f;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR ROOM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd103ba583.js" crossorigin="anonymous"></script>
+   
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <a href="index2.html" class="nav-logo">
+                <img src="Images/logo.png" class="logo">
+                <span>Your Room</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index2.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#listings">Rooms</a></li>
+            </ul>
+            <!-- <a href="login.php" class="reg-btn">Log in</a> -->
+        </nav>
+        <div class="container">
+            <h1>Get Your Perfect Room</h1>
+            <!-- <a href="registration.php" class="reg-btn">Register</a>
+            <div class="filter-box"> -->
+
+            </div>
+        </div>
+    </div>
+    <div id="listings"class="list-container">
+        <p>100+ Options</p>
+        <h1>Recomended near you</h1>
+        <div class="room">
+            <div class="room-img">
+                <img src="images/room1.jpg">
+            </div>
+            <div class="room-info">
+                <div class="info">
+                    <p>Sarkar house in Raiganj</p>
+                    <h3>Fully Furnished Room For Rent</h3>
+                    <p>2 Bedroom . 1 Bathroom . WiFi . 1 Kitchen</p><br>
+                    <i class="fa-solid fa-star" style="color: #f9db15;"></i>
+                    <i class="fa-solid fa-star" style="color: #f9db15;"></i>
+                    <i class="fa-solid fa-star" style="color: #f9db15;"></i>
+                    <i class="fa-solid fa-star" style="color: #f9db15;"></i>
+                    <i class="fa-regular fa-star"></i><br><br>
+                    <p>20+ Ratings</p>
+                </div>
+                <div class="room-price">
+                    <!-- <p>Price</p> -->
+                    <h4> <i class="fa-solid fa-indian-rupee-sign"></i> 4500 / <span>month</span></h4>
+                    <a href="#" class="book-btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="room">
+            <div class="room-img">
+                <img src="images/room2.jpg">
+            </div>
+            <div class="room-info">
+                <div class="info">
+                    <p>Purobhi Rooms</p>
+                    <h3>Semi Furnished Room</h3>
+                    <p>1 Bedroom . 1 Bathroom . WiFi . 1 Kitchen</p><br>
+                    <i class="fa-solid fa-star" style="color: #f9db15;"></i>
+                    <i class="fa-solid fa-star" style="color: #f9db15;"></i>
+                    <i class="fa-solid fa-star" style="color: #f9db15;"></i>
+                    <i class="fa-solid fa-star" style="color: #f9db15;"></i>
+                    <i class="fa-regular fa-star"></i><br><br>
+                    <p>60+ Ratings</p>
+                </div>
+                <div class="room-price">
+                    <!-- <p>Price</p> -->
+                    <h4> <i class="fa-solid fa-indian-rupee-sign"></i> 2500 / <span>month</span></h4>
+                    <a href="#" class="book-btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="room">
+            <div class="room-img">
+                <img src="images/room3.jpg">
+            </div>
+            <div class="room-info">
+                <div class="info">
+                    <p>Paul House</p>
+                    <h3>Rooms For Students</h3>
+                    <p>1 Bedroom . 1 Bathroom . WiFi . 1 Kitchen</p><br>
+                    <i class="fa-solid fa-star" style="color: #f9db15;"></i>
+                    <i class="fa-solid fa-star" style="color: #f9db15;"></i>
+                    <i class="fa-solid fa-star" style="color: #f9db15;"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i><br><br>
+                    <p>50+ Ratings</p>
+                </div>
+                <div class="room-price">
+                    <!-- <p>Price</p> -->
+                    <h4> <i class="fa-solid fa-indian-rupee-sign"></i> 2000 / <span>month</span></h4>
+                    <a href="#" class="book-btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="room">
+            <div class="room-img">
+                <img src="images/room4.jpg">
+            </div>
+            <div class="room-info">
+                <div class="info">
+                    <p>PG Rooms</p>
+                    <h3>Fully Furnished Room For Rent</h3>
+                    <p>3 Bedroom . 2 Bathroom . WiFi . 2 Kitchen</p><br>
+                    <i class="fa-solid fa-star" style="color: #f9db15;"></i>
+                    <i class="fa-solid fa-star" style="color: #f9db15;"></i>
+                    <i class="fa-solid fa-star" style="color: #f9db15;"></i>
+                    <i class="fa-solid fa-star" style="color: #f9db15;"></i>
+                    <i class="fa-regular fa-star"></i><br><br>
+                    <p>40+ Ratings</p>
+                </div>
+                <div class="room-price">
+                    <!-- <p>Price</p> -->
+                    <h4> <i class="fa-solid fa-indian-rupee-sign"></i> 5000 / <span>month</span></h4>
+                    <a href="#" class="book-btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+		// Smooth scrolling animation
+		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+
+				document.querySelector(this.getAttribute('href')).scrollIntoView({
+					behavior: 'smooth'
+				});
+			});
+		});
+	</script>
+</body>
+</html>
